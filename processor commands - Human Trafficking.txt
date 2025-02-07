@@ -1,7 +1,0 @@
-python ucr-human-trafficking-processor.py "FBI raw data/2020_HT_NATIONAL_MASTER_FILE.txt"
-
-python ucr-human-trafficking-processor.py "FBI raw data/2021_HT_NATIONAL_MASTER_FILE.txt"
-
-python ucr-human-trafficking-processor.py "FBI raw data/2022_HT_NATIONAL_MASTER_FILE.txt"
-
-python ucr-human-trafficking-processor.py "FBI raw data/2023_HT_NATIONAL_MASTER_FILE.txt"
