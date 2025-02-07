@@ -1,0 +1,46 @@
+location_code_desc,location_code
+Abandoned/Condemned Structure,37
+Air/Bus/Train Terminal,01
+Amusement Park,38
+Arena/Stadium/Fairgrounds/Coliseum,39
+ATM Separate from Bank,40
+Auto Dealership New/Used,41
+Bank/Savings and Loan,02
+Bar/Nightclub,03
+Camp/Campground,42
+Church/Synagogue/Temple/Mosque,04
+Commercial/Office Building,05
+Community Center,57
+Construction Site,06
+Convenience Store,07
+Daycare Facility,44
+Department/Discount Store,08
+Dock/Wharf/Freight/Modal Terminal,45
+Drug Store/Doctor's Office/Hospital,09
+Farm Facility,46
+Field/Woods,10
+Gambling Facility/Casino/Race Track,47
+Government/Public Building,11
+Grocery/Supermarket,12
+Highway/Road/Alley/Street/Sidewalk,13
+Hotel/Motel/Etc.,14
+Industrial Site,48
+Jail/Prison/Penitentiary/Corrections Facility,15
+Lake/Waterway/Beach,16
+Liquor Store,17
+Military Installation,49
+Park/Playground,50
+Parking Lot/Garage,18
+Rental Storage Facility,19
+Residence/Home,20
+Rest Area,51
+Restaurant,21
+School/College (valid only if you cannot use 52 & 53),22
+School-College/University,52
+School-Elementary/Secondary,53
+Service/Gas Station,23
+Shelter-Mission/Homeless,54
+Shopping Mall,55
+Specialty Store,24
+Tribal Lands,56
+Other/Unknown,25

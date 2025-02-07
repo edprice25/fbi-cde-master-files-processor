@@ -1,0 +1,7 @@
+python ucr-cargo-theft-processor.py "FBI raw data/2020_CT_NATIONAL_MASTER_FILE.txt"
+
+python ucr-cargo-theft-processor.py "FBI raw data/2021_CT_NATIONAL_MASTER_FILE.txt"
+
+python ucr-cargo-theft-processor.py "FBI raw data/2022_CT_NATIONAL_MASTER_FILE.txt"
+
+python ucr-cargo-theft-processor.py "FBI raw data/2023_CT_NATIONAL_MASTER_FILE.txt"

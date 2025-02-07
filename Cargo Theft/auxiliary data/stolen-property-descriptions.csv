@@ -1,0 +1,69 @@
+stolen_property_description,stolen_property_description_code
+Aircraft,01
+Aircraft Parts/Accessories,41
+Alcohol,02	
+Artistic Supplies/Accessories,42
+Automobiles,03
+Bicycles,04
+Building Materials,43
+Buses,05
+Camping/Hunting/Fishing Equipment/Supplies,44
+Chemicals,45
+Clothes/Furs,06
+Collections/Collectibles,46
+Computer Hardware/Software,07
+Consumable Goods,08
+Credit/Debit Cards,09
+Crops,47
+Documents/Personal or Business,48
+Drugs/Narcotics,10
+Drug/Narcotic Equipment,11
+Explosives,49
+Farm Equipment,12
+Firearms,13
+Firearm Accessories,59
+Fuel,64
+Gambling Equipment,14
+Heavy Construction/Industrial Equipment,15
+Household Goods,16
+Identity Documents,65
+Identity (Intangible),66
+Jewelry/Precious Metals/Gems,17
+Law Enforcement Equipment,67
+Lawn/Yard/Garden Equipment,68
+Livestock,18
+Logging Equipment,69
+Medical/Medical Lab Equipment,70
+Merchandise,19
+Metals Non-Precious,71
+Money,20
+Musical Instruments,72
+Negotiable Instruments,21
+Nonnegotiable Instruments,22
+Office-type Equipment,23
+Other Motor Vehicles,24
+Purses/Handbags/Wallets,25
+Pets,73
+Photographic/Optical Equipment,74
+Portable Electronic Communications,75
+Radios/TVs/VCRs,26
+Recordings - Audio/Visual,27
+Recreational/Sports Equipment,76
+Recreational Vehicles,28
+Structures-Single Occupancy Dwellings,29
+Structures - Other Dwellings,30
+Structures - Other Commercial/Business,31
+Structures - Industrial/Manufacturing,32
+Structures - Public/Community,33
+Structures - Storage,34
+Structures - Other,35
+Tools,36
+Trailers,78
+Trucks,37
+Vehicle Parts/Accessories,38
+Watercraft,39
+Watercraft Equipment/Parts/Accessories,79
+Weapons-Other,80
+Other,77
+Pending Inventory,88
+(BLANK),99
