@@ -14,7 +14,7 @@
             line-height: 1.6;
         }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: 0 auto;
             background: white;
             padding: 40px;
@@ -28,7 +28,8 @@
             font-weight: 600;
         }
         .dashboard-link {
-            display: block;
+            display: flex;
+            align-items: center;
             margin: 30px 0;
             padding: 20px;
             background: #f8fafc;
@@ -40,6 +41,19 @@
         .dashboard-link:hover {
             background: #e2e8f0;
             transform: translateX(5px);
+        }
+        .dashboard-thumbnail {
+            flex: 0 0 160px;
+            margin-right: 20px;
+            border: 1px solid #e2e8f0;
+        }
+        .dashboard-thumbnail img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+        .dashboard-info {
+            flex: 1;
         }
         .dashboard-title {
             font-size: 1.2em;
@@ -54,6 +68,18 @@
             font-size: 14px;
             color: #64748b;
         }
+        @media (max-width: 600px) {
+            .dashboard-link {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+            .dashboard-thumbnail {
+                margin-right: 0;
+                margin-bottom: 15px;
+                width: 100%;
+                max-width: 300px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -63,19 +89,33 @@
         <a href="https://public.tableau.com/views/HumanTraffickingintheUnitedStates_17377826535650/FBIOverview?:showVizHome=no&:embed=true" 
            class="dashboard-link" 
            target="_blank">
-            <div class="dashboard-title">Human Trafficking in the United States</div>
-            View interactive dashboard analyzing human trafficking offenses and trends
+            <div class="dashboard-thumbnail">
+<!--                <img src="https://public.tableau.com/static/images/Hu/HumanTraffickingintheUnitedStates_17377826535650/FBIOverview/1.png" -->
+                <img src="FBI Overview - Human Trafficking.png" 
+                     alt="Human Trafficking Dashboard Preview">
+            </div>
+            <div class="dashboard-info">
+                <div class="dashboard-title">Human Trafficking in the United States</div>
+                View interactive dashboard analyzing human trafficking offenses and trends
+            </div>
         </a>
 
         <a href="https://public.tableau.com/views/CargoTheftintheUnitedStates/FBIOverview-CargoTheft?:showVizHome=no&:embed=true" 
            class="dashboard-link" 
            target="_blank">
-            <div class="dashboard-title">Cargo Theft in the United States</div>
-            View interactive dashboard analyzing cargo theft incidents and trends
+            <div class="dashboard-thumbnail">
+<!--                <img src="https://public.tableau.com/static/images/Ca/CargoTheftintheUnitedStates/FBIOverview-CargoTheft/1.png" -->
+                <img src="FBI Overview - Cargo Theft.png" 
+                     alt="Cargo Theft Dashboard Preview">
+            </div>
+            <div class="dashboard-info">
+                <div class="dashboard-title">Cargo Theft in the United States</div>
+                View interactive dashboard analyzing cargo theft incidents and trends
+            </div>
         </a>
 
         <div class="disclaimer">
-            Data source: Federal Bureau of Investigation (FBI) Crime Data Explorer
+            Data source:  Federal Bureau of Investigation (FBI) Crime Data Explorer (CDE)
         </div>
     </div>
 </body>
